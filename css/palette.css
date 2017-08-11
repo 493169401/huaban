@@ -1,0 +1,170 @@
+*{
+    list-style:none ;
+    margin:0;
+    padding:0;
+}
+html,body{
+    width:100%;
+    height:100%;
+    background:#D2DCEA;
+    overflow: hidden;
+}
+.palette{
+    width:100%;
+    height:100%;
+    background:#D2DCEA;
+    /*background:rgb(125, 232, 207);*/
+    margin:auto;
+}
+
+.palette .draw{
+    /*margin-left:80px;*/
+    width:100%;
+    height:88%;
+    float:left;
+    background:#D2DCEA;
+    /*background:rgb(125, 232, 207);*/
+}
+.fun{
+    width:100%;
+    height:12%;
+    background:#D2DCEA;
+    border-bottom:2px solid #fff;
+    /*background:rgb(125, 232, 207);*/
+}
+.fun .img{
+    width:60px;
+    height:60px;
+    float:left;
+    margin-left:30px;
+    margin-top:10px;
+    background-image: url(../img/1.png);
+    background-size:contain;
+    background-position:center center;
+    background-repeat: no-repeat;
+}
+.fun .iconfont{
+    display:block;
+    width:60px;
+    height:40px;
+    font-size:30px;
+    text-align:center;
+    line-height:40px;
+    float:left;
+    /*margin-right:5px;*/
+    margin-top:20px;
+    margin-left:30px;
+    border:1px solid #fff;
+    color:#fff;
+}
+.draw .tool{
+    width:153px;
+    height:100%;
+    float:left;
+    background:#D2DCEA;
+    /*background:rgb(125, 232, 207);*/
+    /*border:2px solid #fff;*/
+}
+.draw>.screen{
+    width:950px;
+    height:650px;
+    float:left;
+    background:#D2DCEA;
+    /*background:rgb(125, 232, 207);*/
+    position:relative;
+    /*top:0;*/
+    /*left:0;*/
+}
+.draw .right{
+    width:350px;
+    height:100%;
+    float:left;
+    background-image: url(../img/6.png);
+    background-size:100%;
+    background-position:center center;
+    background-repeat: no-repeat;
+}
+.screen canvas{
+    background:#fff;
+    border:1px solid #fff;
+    /*position:absolute;*/
+    /*top:0;*/
+    /*left:0;*/
+    /*z-index:10;*/
+}
+.screen .mask{
+    width:100%;
+    height:100%;
+    /*background:rgba(0,0,0,0.1);*/
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:10;
+}
+.screen  .eraser{
+    border:1px solid #000;
+    /*background:red;*/
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+    /*z-index:100;*/
+}
+.tool .iconfont{
+    display:block;
+    width:40px;
+    height:40px;
+    font-size:30px;
+    text-align:center;
+    line-height:40px;
+    float:left;
+    /*margin-right:5px;*/
+    margin-top:3px;
+    margin-bottom:10px;
+    margin-left:23px;
+    border:1px solid #fff;
+    color:#fff;
+
+}
+.tool .iconfont:nth-child(1),.tool .iconfont:nth-child(2){
+    margin-top:30px;
+}
+.tool .iconfont:nth-child(7),.tool .iconfont:nth-child(8){
+    margin-bottom:30px;
+}
+.tool .icon-miaobian{
+    margin-top:30px;
+}
+.tool .icon-tianchong{
+    margin-bottom:30px;
+}
+.tool .icon-xiangpi,.tool .icon-wenzi{
+    margin-top:30px;
+}
+/*.tool .color{*/
+    /*background:yellow;*/
+/*}*/
+.tool input{
+    display:block;
+    border:none;
+    width:40px;
+    height:40px;
+    float:left;
+    border:1px solid #fff;
+    margin-top:3px;
+    margin-bottom:10px;
+    margin-left:23px;
+}
+.tool .MB{
+    margin-top:30px;
+}
+.tool .TC{
+    margin-bottom:30px;
+}
+hr{
+    display:block;
+    width:100%;
+    height:2px;
+    margin-top:50px;
+    background:#fff;
+}
